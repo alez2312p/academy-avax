@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  width: min-content;
+  min-height: 550px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.moduleTitle,
+.moduleDescription {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.moduleHours {
+  background-color: var(--softTextColor);
+  color: var(--softBg);
+  width: fit-content;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.moduleDescription {
+  flex-grow: 1;
+}
+
+.moduleButton {
+  background-color: #e84142;
+  text-align: center;
+  padding: 10px 60px;
+  margin: 15px;
+  width: fit-content;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+  font-weight: 800;
+}
+
+.moduleButton:hover {
+  background-color: #b41c1c;
+}

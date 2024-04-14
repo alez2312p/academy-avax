@@ -1,0 +1,31 @@
+.container {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-color: var(--softBg);
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  width: 185px;
+  height: auto;
+}
+
+.textSignIn {
+  color: #e84142;
+}

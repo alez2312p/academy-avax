@@ -1,0 +1,25 @@
+.signIn,
+.signUp {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 700;
+  font-size: 1.2rem;
+  background-color: transparent;
+  margin-left: 10px;
+  color: var(--textColor);
+}
+
+.signIn:hover {
+  background-color: #d7b2b2;
+}
+
+.signUp {
+  background-color: #e84142;
+}
+
+.signUp:hover {
+  background-color: #b41c1c;
+}

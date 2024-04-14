@@ -1,0 +1,27 @@
+.container {
+  background-color: #e84142;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.image {
+  background-color: #e84142;
+}
+
+.count {
+  color: white;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.title {
+  background-color: #e84142;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-bottom: 15px;
+}
