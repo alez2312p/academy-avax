@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar/navbar";
+import Navbar from "@/components/navbar/Navbar";
 import { ThemeContextProvider } from "@/contexts/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
+import ToggleTheme from "@/components/toggleTheme/ToggleTheme";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <ThemeProvider>
             <Navbar />
             {children}
+            <ToggleTheme />
             <Footer />
           </ThemeProvider>
         </ThemeContextProvider>

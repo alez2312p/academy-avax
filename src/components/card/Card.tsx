@@ -1,7 +1,7 @@
 import Image from "next/image"
 import React from "react"
-import Title from "./title"
-import styles from "@/styles/card.module.css"
+import Title from "../title/Title"
+import styles from "./card.module.css"
 
 type CardProps = {
     src: string

@@ -1,9 +1,9 @@
-import styles from "@/styles/navbar.module.css"
+import styles from "./navbar.module.css"
 import { signIn } from "next-auth/react"
 import Image from "next/image"
-import UserMenuButton from "./UserMenuButton"
+import UserMenuButton from "./signButtons/UserMenuButton"
 import { getServerSession } from "next-auth"
-import ToggleTheme from "./ToggleTheme"
+import ToggleTheme from "../toggleTheme/ToggleTheme"
 
 const Navbar = async () => {
     // const session = await getServerSession(authOptions);
@@ -20,7 +20,6 @@ const Navbar = async () => {
                 <div></div>
                 <div className={styles.buttons}>
                     <UserMenuButton />
-                    <ToggleTheme />
                 </div>
             </nav>
         </div>

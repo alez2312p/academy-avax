@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect, useRef } from 'react';
-import styles from "@/styles/title.module.css";
+import styles from "./title.module.css";
 
 const useTypewriter = (title: string, speed = 150) => {
     const [displayText, setDisplayText] = useState('');

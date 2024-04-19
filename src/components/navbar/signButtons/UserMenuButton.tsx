@@ -1,6 +1,6 @@
 "use client"
 import { signIn } from "next-auth/react"
-import styles from "@/styles/navbar.module.css"
+import styles from "../navbar.module.css"
 import { Session } from "next-auth";
 import React from "react";
 import Button from "./SignButtons";

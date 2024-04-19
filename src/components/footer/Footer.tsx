@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "@/styles/footer.module.css"
+import styles from "./footer.module.css"
 import Link from "next/link";
 import SocialLink from "../SocialLink/SocialLink";
 

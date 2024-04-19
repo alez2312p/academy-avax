@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "@/styles/signButtons.module.css"
+import styles from "./signButtons.module.css"
 interface ButtonProps {
     variant: 'signIn' | 'signUp';
     onClick: () => void;

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Title from "@/components/title";
-import Card from "@/components/card";
-import CardModule from "@/components/module";
+import Title from "@/components/title/Title";
+import Card from "@/components/card/Card";
+import CardModule from "@/components/module/Module";
 import React from "react";
 import modules from "@/utils/courses_data.json"
 
