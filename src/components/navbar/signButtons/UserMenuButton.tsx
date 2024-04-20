@@ -4,6 +4,7 @@ import styles from "../navbar.module.css"
 import { Session } from "next-auth";
 import React from "react";
 import Button from "./SignButtons";
+import { useTranslation } from "react-i18next";
 
 type UserMenuButtonProps = {
     variant?: 'signIn' | 'signUp';
@@ -19,14 +20,16 @@ const UserMenuButton: React.FC<UserMenuButtonProps> = ({ variant }) => {
         // Código para manejar el registro
     };
 
+    const { t } = useTranslation(['navbar'])
+
 
     return (
         <div className={styles.containerButtons}>
             <Button variant="signIn" onClick={handleSignIn}>
-                Sign in
+                {t("signIn")}
             </Button>
             <Button variant="signUp" onClick={handleSignUp}>
-                Sign up
+                {t("signUp")}
             </Button>
         </div>
     )

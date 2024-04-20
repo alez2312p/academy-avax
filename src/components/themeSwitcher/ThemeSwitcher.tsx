@@ -1,6 +1,6 @@
 "use client"
 import { useContext } from "react";
-import styles from "./toggleTheme.module.css";
+import styles from "./themeSwitcher.module.css";
 import { ThemeContext } from "@/contexts/ThemeContext";
 import Image from "next/image";
 
@@ -14,8 +14,8 @@ const ThemeToggle = () => {
     const { theme, toggle } = context;
 
     const icon = theme === "dark"
-        ? <Image className={styles.icon} src="/sun.png" alt="sun.png" width={40} height={40} />
-        : <Image className={styles.icon} src="/moon.png" alt="moon.png" width={40} height={40} />
+        ? <Image className={styles.icon} src="/sun.svg" alt="sun.svg" width={30} height={30} />
+        : <Image className={styles.icon} src="/moon.svg" alt="moon.svg" width={30} height={30} />
 
     return (
         <button className={styles.container} onClick={toggle}>

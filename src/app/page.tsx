@@ -1,27 +1,34 @@
+"use client"
+
 import Image from "next/image";
 import styles from "./page.module.css";
 import Title from "@/components/title/Title";
 import Card from "@/components/card/Card";
 import CardModule from "@/components/module/Module";
 import React from "react";
-import modules from "@/utils/courses_data.json"
+import { useTranslation } from "react-i18next";
+import enModules from "../../public/locales/en/cardModule.json";
+import esModules from "../../public/locales/es/cardModule.json";
+import i18n from "../i18n";
 
 const Home = () => {
-  const lang = 'en';
+  const { t } = useTranslation(['home', 'cardModule'])
+  const modules = i18n.language === 'es' ? esModules : enModules;
+
   return (
     <>
       <section className={styles.section1}>
         <div className={styles.textContent}>
           <div className={styles.typewriter}>
             <h1>
-              <Title title="Create Without Limits" fontSize={56} />
+              <Title title={t("createWithoutLimits")} fontSize={56} />
             </h1>
           </div>
           <p className={styles.p}>
-            Become an expert in the Avalanche Ecosystem, Virtual Machine Development and Subnet Architecture.
+            {t("becomeExpert")}
           </p>
           <button className={styles.ctaButton}>
-            Start Learning Today
+            {t('startLearning')}
           </button>
         </div>
         <div className={styles.imageContent}>
@@ -36,26 +43,25 @@ const Home = () => {
       </section>
 
       <section className={styles.section2}>
-        <Card src="/images/total_courses.svg" count="3" title="Total Courses" />
-        <Card src="/images/expert_mentors.svg" count="5" title="Expert Mentors" />
-        <Card src="/images/students.svg" count="1,800+" title="Students" />
+        <Card src="/images/total_courses.svg" count="3" title={t("totalCourses")} />
+        <Card src="/images/expert_mentors.svg" count="5" title={t("expertMentors")} />
+        <Card src="/images/students.svg" count="1,800+" title={t("students")} />
       </section>
 
       <section className={styles.section3}>
-        <h3 className={styles.h3}>Courses</h3>
-        <h2>Explore Our Courses</h2>
-        <p className={styles.description}>
-          We offer fundamental courses are specifically designed for individuals who are new to the Avalanche ecosystem, and advanced courses for those who wish to master the art of configuring, modifying, or even creating entirely new Virtual Machines from scratch.
-        </p>
+        <h3 className={styles.h3}>{t("courses")}</h3>
+        <h2>{t("exploreCourses")}</h2>
+        <p className={styles.description}>{t("courseDescription")}</p>
         <div className={styles.containerModule}>
           {modules.map((module, index) => (
             <CardModule
               key={index}
-              image={module[lang].image}
-              hours={module[lang].duration}
-              title={module[lang].title}
-              description={module[lang].description}
-              path={module[lang].path}
+              image={module.image}
+              hours={module.duration}
+              title={module.title}
+              description={module.description}
+              path={module.path}
+              available={module.available}
             />
           ))}
         </div>
@@ -64,19 +70,15 @@ const Home = () => {
       <section className={styles.section4}>
         <Image src={"/images/certificate.png"} alt="certificate" height={450} width={450} />
         <div>
-          <Title title="Earn an Avalanche Academy Certificate" fontSize={56} />
-          <p className={styles.p}>
-            Showcase your Avalanche Academy accomplishments on your CV and platforms like LinkedIn, X, and more.
-          </p>
+          <Title title={t("certificate")} fontSize={56} />
+          <p className={styles.p}>{t("certificateDescription")}</p>
         </div>
       </section>
 
       <section className={styles.section4}>
         <div>
-          <Title title="Join the Avalanche Community" fontSize={56} />
-          <p className={styles.p}>
-            Get connected with other Avalanche builders and like-minded individuals passionate about Avalanche.
-          </p>
+          <Title title={t("joinCommunity")} fontSize={56} />
+          <p className={styles.p}>{t("communityDescription")}</p>
         </div>
         <Image src={"/images/community.png"} alt="community" height={450} width={450} />
       </section>
@@ -84,19 +86,15 @@ const Home = () => {
       <section className={styles.section4}>
         <Image src={"/images/getRewards.png"} alt="getRewards" height={450} width={450} />
         <div>
-          <Title title="Get Rewards" fontSize={56} />
-          <p className={styles.p}>
-            Top performing students can earn benefits, such as exclusive Avalanche Merchandise, complimentary event tickets, and additional privileges.
-          </p>
+          <Title title={t("getRewards")} fontSize={56} />
+          <p className={styles.p}>{t("rewardsDescription")}</p>
         </div>
       </section>
 
       <section className={styles.section5}>
         <div className={styles.contentSection5}>
-          <h2 className={styles.title}>Take your Career to the next Level!</h2>
-          <button className={styles.buttonRegister}>
-            Register Now
-          </button>
+          <h2 className={styles.title}>{t("careerLevel")}</h2>
+          <button className={styles.buttonRegister}>{t("registerNow")}</button>
         </div>
       </section>
 

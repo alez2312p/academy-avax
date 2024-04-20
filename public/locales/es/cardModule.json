@@ -1,0 +1,58 @@
+[
+  {
+    "image": "/images/module/avalanche_fundaments.png",
+    "duration": "1.5 horas",
+    "title": "Fundamentos de Avalanche",
+    "description": "Este curso te ofrece una visión general de alto nivel del Consenso de Avalanche, Subredes y VMs. Si eres nuevo en Avalanche o deseas refrescar tu conocimiento y llenar algunos huecos, este curso es adecuado para ti.",
+    "path": "/es/module/Fundamentos-Avalanche",
+    "available": true
+  },
+  {
+    "image": "/images/module/subnet_architecture.png",
+    "duration": "1.5 horas",
+    "title": "Arquitectura de Subredes",
+    "description": "Este curso profundiza más en la arquitectura de las Subredes. Te enseñará cómo crear Subredes con la CLI de Avalanche y cuáles son sus beneficios.",
+    "path": "/es/module/Arquitectura-Subredes",
+    "available": true
+  },
+  {
+    "image": "/images/module/teleporter.jpeg",
+    "duration": "4 horas",
+    "title": "DApps entre subredes con Teleporter (beta)",
+    "description": "La comunicación entre cadenas es un componente crucial de los sistemas multi-cadena. Utilizar Teleporter y los Mensajes Warp de Avalanche es una forma increíblemente fácil de construir dApps entre Subredes, ya que los desarrolladores pueden construir sobre un marco de desarrollo extenso y auditado.",
+    "path": "/es/module/teleporter",
+    "available": true
+  },
+  {
+    "image": "/images/module/customizing_evm.jpeg",
+    "duration": "6 horas",
+    "title": "Personalizando el EVM (beta)",
+    "description": "Aprende cómo personalizar y lanzar tu propio EVM en una Subred. Aprenderás cómo configurar el EVM y cómo modificarlo y ampliarlo usando Precompilados y Precompilados con Estado.",
+    "path": "/es/module/Personalizando-EVM",
+    "available": true
+  },
+  {
+    "image": "/images/module/hypersdk.png",
+    "duration": "4 horas",
+    "title": "HyperSDK",
+    "description": "Aprende cómo construir Máquinas Virtuales de propósito especial utilizando el HyperSDK. El HyperSDK es el primero (de muchos) marcos dedicados a hacer que sea más rápido, seguro y fácil lanzar tu propia blockchain optimizada en una Subred de Avalanche.",
+    "path": "/es/module/HyperSDK",
+    "available": false
+  },
+  {
+    "image": "/images/module/introduction_solidity.png",
+    "duration": "4 horas",
+    "title": "Introducción a la Programación en Solidity",
+    "description": "A nivel alto, es posible que hayas escuchado que los contratos inteligentes son solo código que automatiza un proceso. ¿Quieres crear un protocolo de seguro descentralizado? Puedes construir un contrato inteligente para eso. ¿Quieres crear y distribuir NFTs? También puedes construir un contrato inteligente para ello.",
+    "path": "/es/module/Introducción-Solidity",
+    "available": false
+  },
+  {
+    "image": "/images/module/running_node.jpeg",
+    "duration": "4 horas",
+    "title": "Ejecutando un Nodo de Avalanche",
+    "description": "Este curso es una guía paso a paso que te ayudará a aprender cómo ser una parte valiosa de la red de Avalanche. Durante este curso, comprenderás cómo funcionan los nodos de Avalanche y aprenderás habilidades prácticas necesarias para configurar y administrar tus nodos de Avalanche.",
+    "path": "/es/module/Runnig-Node",
+    "available": false
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "image": "/images/module/avalanche_fundaments.png",
+    "duration": "1.5 hours",
+    "title": "Avalanche Fundamentals",
+    "description": "This course gives you a high level overview of Avalanche Consensus, Subnets and VMs. If you\u2019re new to Avalanche or want to refresh your knowledge and fill in some gaps, this course is right for you.",
+    "path": "/en/module/Avalanche-Fundamentals",
+    "available": true
+  },
+  {
+    "image": "/images/module/subnet_architecture.png",
+    "duration": "1.5 hours",
+    "title": "Subnet Architecture",
+    "description": "This course dives deeper into the Subnet architecture. It will teach you how to create Subnets with the Avalanche CLI and what their benefits are.",
+    "path": "/en/module/Subnet-Architecture",
+    "available": true
+  },
+  {
+    "image": "/images/module/teleporter.jpeg",
+    "duration": "4 hours",
+    "title": "Cross-Subnet dApps with Teleporter (beta)",
+    "description": "Cross-chain communication is a crucial building block of multi-chain systems. Utilizing Teleporter and Avalanche Warp Messaging is an incredible easy way to build cross-Subnet dApps, since developers can build on top an extensive and audited development framework.",
+    "path": "/en/module/teleporter",
+    "available": true
+  },
+  {
+    "image": "/images/module/customizing_evm.jpeg",
+    "duration": "6 hours",
+    "title": "Customizing the EVM (beta)",
+    "description": "Learn how to customize and launch your own EVM on a Subnet. You will learn how to configure the EVM and how to modify and extend it using Precompiles and Stateful Precompiles.",
+    "path": "/en/module/Customizing-EVM",
+    "available": true
+  },
+  {
+    "image": "/images/module/hypersdk.png",
+    "duration": "4 hours",
+    "title": "HyperSDK",
+    "description": "Learn how to build special purpose Virtual Machines utilizing the HyperSDK. The HyperSDK is the first (of many) frameworks dedicated to making it faster, safer, and easier to launch your own optimized blockchain on an Avalanche Subnet.",
+    "path": "/en/module/HyperSDK",
+    "available": false
+  },
+  {
+    "image": "/images/module/introduction_solidity.png",
+    "duration": "4 hours",
+    "title": "Introduction to Solidity Programming",
+    "description": "From a high-level, you may have heard that smart contracts are just code that automate a process. Want to create a decentralized insurance protocol? You can build a smart contract for that. Want to create and distribute NFTs? You can also build a smart contract.",
+    "path": "/en/module/Introduction-Solidity",
+    "available": false
+  },
+  {
+    "image": "/images/module/running_node.jpeg",
+    "duration": "4 hours",
+    "title": "Running an Avalanche Node",
+    "description": "This course is a step-by-step guide that will help you learn how to be a valuable part of the Avalanche network. During this course, you'll understand how Avalanche nodes work and learn practical skills necessary for setting up and managing your Avalanche nodes.",
+    "path": "/en/module/Runnig-Node",
+    "available": false
+  }
+]

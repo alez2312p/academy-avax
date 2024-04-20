@@ -1,9 +1,12 @@
+"use client"
 import Image from "next/image";
 import styles from "./footer.module.css"
 import Link from "next/link";
 import SocialLink from "../SocialLink/SocialLink";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+    const { t } = useTranslation(["footer"])
     return (
         <section className={styles.container}>
             <footer className={styles.footer}>
@@ -22,17 +25,17 @@ const Footer = () => {
                 <div className={styles.content}>
                     <div className={styles.legal}>
                         <p className={styles.title}>
-                            Legal
+                            {t("legal")}
                         </p>
                         <div className={styles.containerLegal}>
-                            <Link className={styles.link} href={"https://www.avax.network/privacy-policy"}>Privacy Policy</Link>
-                            <Link className={styles.link} href={"https://www.avax.network/terms-of-use"}>Terms of Use</Link>
-                            <Link className={styles.link} href={"https://academy.avax.network/cookies"}>Cookie Policy</Link>
+                            <Link className={styles.link} href={"https://www.avax.network/privacy-policy"}>{t("privacyPolicy")}</Link>
+                            <Link className={styles.link} href={"https://www.avax.network/terms-of-use"}>{t("termsOfUse")}</Link>
+                            <Link className={styles.link} href={"https://academy.avax.network/cookies"}>{t("cookiePolicy")}</Link>
                         </div>
                     </div>
                     <div className={styles.social}>
                         <p className={styles.title}>
-                            Social
+                            {t("social")}
                         </p>
                         <div className={styles.containerSocial}>
                             <SocialLink

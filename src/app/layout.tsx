@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar/Navbar";
 import { ThemeContextProvider } from "@/contexts/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
 import Footer from "@/components/footer/Footer";
-import ToggleTheme from "@/components/toggleTheme/ToggleTheme";
+import ThemeSwitcher from "@/components/themeSwitcher/ThemeSwitcher";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +26,7 @@ export default function RootLayout({
           <ThemeProvider>
             <Navbar />
             {children}
-            <ToggleTheme />
+            <ThemeSwitcher />
             <Footer />
           </ThemeProvider>
         </ThemeContextProvider>

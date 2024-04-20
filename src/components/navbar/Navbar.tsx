@@ -3,23 +3,27 @@ import { signIn } from "next-auth/react"
 import Image from "next/image"
 import UserMenuButton from "./signButtons/UserMenuButton"
 import { getServerSession } from "next-auth"
-import ToggleTheme from "../toggleTheme/ToggleTheme"
+import LanguageSwitcher from "../language/LanguageSwitcher"
+import Link from "next/link"
 
 const Navbar = async () => {
     // const session = await getServerSession(authOptions);
     return (
         <div className={styles.container}>
             <nav className={styles.nav}>
-                <Image
-                    src={"/images/avalanche_academy.png"}
-                    alt="avalanche_academy"
-                    height={900}
-                    width={900}
-                    className={styles.logo}
-                />
+                <Link href={"/"}>
+                    <Image
+                        src={"/images/avalanche_academy.png"}
+                        alt="avalanche_academy"
+                        height={900}
+                        width={900}
+                        className={styles.logo}
+                    />
+                </Link>
                 <div></div>
                 <div className={styles.buttons}>
                     <UserMenuButton />
+                    <LanguageSwitcher />
                 </div>
             </nav>
         </div>

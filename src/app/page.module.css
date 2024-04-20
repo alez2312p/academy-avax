@@ -79,7 +79,8 @@
 
 .containerModule {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .textContent {
@@ -118,8 +119,13 @@
 
   /* Mobile */
   @media (max-width: 768px) {
-    .section {
+    .section1,
+    .section3,
+    .section4 {
+      display: flex;
       flex-direction: column;
+      align-items: center;
+      gap: 20px;
     }
 
     .textContent {
@@ -129,6 +135,28 @@
 
   /* Tablet and Smaller Desktop */
   @media (min-width: 701px) and (max-width: 1120px) {
+    .section1,
+    .section3,
+    .section4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .section5 {
+      padding: 30px;
+      margin: 30px 20px;
+    }
+    .textContent {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .containerModule {
+      display: flex;
+    }
   }
 
   @media (prefers-color-scheme: dark) {
