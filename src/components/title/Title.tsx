@@ -32,7 +32,7 @@ const useTypewriter = (title: string, speed = 150) => {
     return [displayText, showCursor];
 };
 
-const Title = ({ title, speed }: { title: string, speed?: number }) => {
+const Title = ({ title, speed, fontSize }: { title: string, speed?: number, fontSize?: number }) => {
     const [displayText, showCursor] = useTypewriter(title, speed);
     const prevTitle = useRef(title);
 
@@ -43,7 +43,7 @@ const Title = ({ title, speed }: { title: string, speed?: number }) => {
     }, [title]);
 
     return (
-        <p className={styles.title}>
+        <p className={styles.title} style={{ fontSize: `${fontSize}px` }}>
             {displayText}
             {showCursor && <span className={styles.cursor}>|</span>}
         </p>
