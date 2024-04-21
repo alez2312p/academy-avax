@@ -8,6 +8,11 @@ const useTypewriter = (title: string, speed = 150) => {
     const [showCursor, setShowCursor] = useState(true);
 
     useEffect(() => {
+
+        indexRef.current = 0;
+        setDisplayText('');
+        setShowCursor(true);
+
         const typingInterval = setInterval(() => {
             indexRef.current++;
             setShowCursor(false);
@@ -29,6 +34,13 @@ const useTypewriter = (title: string, speed = 150) => {
 
 const Title = ({ title, speed, fontSize }: { title: string, speed?: number, fontSize: number }) => {
     const [displayText, showCursor] = useTypewriter(title, speed);
+    const prevTitle = useRef(title);
+
+    useEffect(() => {
+        if (prevTitle.current !== title) {
+            prevTitle.current = title;
+        }
+    }, [title]);
 
     return (
         <p className={styles.title} style={{ fontSize: `${fontSize}px` }}>
