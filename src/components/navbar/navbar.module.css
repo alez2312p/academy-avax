@@ -30,3 +30,9 @@
 .textSignIn {
   color: #e84142;
 }
+
+@media (max-width: 710px) {
+  .buttons {
+    display: none;
+  }
+}

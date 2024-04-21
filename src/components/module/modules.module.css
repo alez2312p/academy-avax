@@ -79,3 +79,15 @@
 .hidden {
   display: none;
 }
+
+@media (max-width: 575px) {
+  .card {
+    margin: 20px 0;
+  }
+  .moduleTitle {
+    font-size: 1.5rem;
+  }
+  .moduleDescription {
+    text-align: justify;
+  }
+}

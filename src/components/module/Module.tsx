@@ -16,16 +16,16 @@ interface cardModuleProps {
 const CardModule: React.FC<cardModuleProps> = ({ image, hours, title, description, path, available }) => {
     const enroll = i18n.language === 'es' ? 'Inscribir' : 'Enroll';
 
-    const truncateDescription = (text: string) => {
-        const wordLimit = 30;
-        const words = text.split(' ');
+    // const truncateDescription = (text: string) => {
+    //     const wordLimit = 30;
+    //     const words = text.split(' ');
 
-        if (words.length > wordLimit) {
-            return words.slice(0, wordLimit).join(' ') + '...';
-        }
+    //     if (words.length > wordLimit) {
+    //         return words.slice(0, wordLimit).join(' ') + '...';
+    //     }
 
-        return text;
-    };
+    //     return text;
+    // };
 
     return (
         <div>
@@ -36,7 +36,7 @@ const CardModule: React.FC<cardModuleProps> = ({ image, hours, title, descriptio
                 </div>
                 <h4 className={styles.moduleHours}>{hours}</h4>
                 <h3 className={styles.moduleTitle}>{title}</h3>
-                <p className={styles.moduleDescription}>{truncateDescription(description)}</p>
+                <p className={styles.moduleDescription}>{description}</p>
                 {available && (
                     <Link href={path} className={styles.moduleButton}>{enroll}</Link>
                 )}

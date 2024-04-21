@@ -25,12 +25,10 @@
 
 .span {
   background-color: transparent;
-  justify-content: end;
 }
 
 .content {
   background-color: transparent;
-
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
@@ -61,14 +59,34 @@
   flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 700px) and (max-width: 1120px) {
   .content {
-    gap: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
   }
 }
 
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (max-width: 699px) {
+  .footer {
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .image {
+    height: 60px;
+    width: 200px;
+    margin: 0;
+  }
+  .span {
+    margin-left: 65%;
+  }
   .content {
-    gap: 115px;
+    flex-direction: column;
+    gap: 30px;
   }
 }

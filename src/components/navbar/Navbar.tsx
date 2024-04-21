@@ -5,9 +5,11 @@ import UserMenuButton from "./signButtons/UserMenuButton"
 import { getServerSession } from "next-auth"
 import LanguageSwitcher from "../language/LanguageSwitcher"
 import Link from "next/link"
+import HamburgerButton from "./hamburgerButton/HamburgerButton"
 
 const Navbar = async () => {
     // const session = await getServerSession(authOptions);
+
     return (
         <div className={styles.container}>
             <nav className={styles.nav}>
@@ -21,6 +23,7 @@ const Navbar = async () => {
                     />
                 </Link>
                 <div></div>
+                <HamburgerButton />
                 <div className={styles.buttons}>
                     <UserMenuButton />
                     <LanguageSwitcher />

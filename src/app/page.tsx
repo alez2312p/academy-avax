@@ -21,7 +21,7 @@ const Home = () => {
         <div className={styles.textContent}>
           <div className={styles.typewriter}>
             <h1>
-              <Title title={t("createWithoutLimits")} fontSize={56} />
+              <Title title={t("createWithoutLimits")} />
             </h1>
           </div>
           <p className={styles.p}>
@@ -38,6 +38,7 @@ const Home = () => {
             alt="pc"
             height={500}
             width={500}
+            className={styles.image}
           />
         </div>
       </section>
@@ -68,31 +69,37 @@ const Home = () => {
       </section>
 
       <section className={styles.section4}>
-        <Image src={"/images/certificate.png"} alt="certificate" height={450} width={450} />
+        <Image src={"/images/certificate.png"} alt="certificate" height={450} width={450}
+          className={styles.image}
+        />
         <div>
-          <Title title={t("certificate")} fontSize={56} />
+          <Title title={t("certificate")} />
           <p className={styles.p}>{t("certificateDescription")}</p>
         </div>
       </section>
 
-      <section className={styles.section4}>
+      <section className={styles.section5}>
         <div>
-          <Title title={t("joinCommunity")} fontSize={56} />
+          <Title title={t("joinCommunity")} />
           <p className={styles.p}>{t("communityDescription")}</p>
         </div>
-        <Image src={"/images/community.png"} alt="community" height={450} width={450} />
+        <Image src={"/images/community.png"} alt="community" height={450} width={450}
+          className={styles.image}
+        />
       </section>
 
-      <section className={styles.section4}>
-        <Image src={"/images/getRewards.png"} alt="getRewards" height={450} width={450} />
+      <section className={styles.section6}>
+        <Image src={"/images/getRewards.png"} alt="getRewards" height={450} width={450}
+          className={styles.image}
+        />
         <div>
-          <Title title={t("getRewards")} fontSize={56} />
+          <Title title={t("getRewards")} />
           <p className={styles.p}>{t("rewardsDescription")}</p>
         </div>
       </section>
 
-      <section className={styles.section5}>
-        <div className={styles.contentSection5}>
+      <section className={styles.section7}>
+        <div className={styles.contentSection7}>
           <h2 className={styles.title}>{t("careerLevel")}</h2>
           <button className={styles.buttonRegister}>{t("registerNow")}</button>
         </div>
