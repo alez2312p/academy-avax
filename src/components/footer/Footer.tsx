@@ -11,13 +11,15 @@ const Footer = () => {
         <section className={styles.container}>
             <footer className={styles.footer}>
                 <div className={styles.logo}>
-                    <Image
-                        src={"/images/avalanche_academy_white.png"}
-                        alt="avalanche_academy_white"
-                        height={60}
-                        width={200}
-                        className={styles.image}
-                    />
+                    <Link href={"/"} className={styles.image}>
+                        <Image
+                            src={"/images/avalanche_academy_white.png"}
+                            alt="avalanche_academy_white"
+                            height={60}
+                            width={200}
+                            className={styles.image}
+                        />
+                    </Link>
                     <span className={styles.span}>
                         Copyright © 2023
                     </span>
@@ -66,7 +68,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-        </section>
+        </section >
     )
 }
 

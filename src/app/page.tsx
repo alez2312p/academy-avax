@@ -19,11 +19,9 @@ const Home = () => {
     <>
       <section className={styles.section1}>
         <div className={styles.textContent}>
-          <div className={styles.typewriter}>
-            <h1>
-              <Title title={t("createWithoutLimits")} />
-            </h1>
-          </div>
+          <h1>
+            <Title title={t("createWithoutLimits")} />
+          </h1>
           <p className={styles.p}>
             {t("becomeExpert")}
           </p>
