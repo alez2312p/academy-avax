@@ -59,7 +59,7 @@
   flex-direction: row;
 }
 
-@media (min-width: 700px) and (max-width: 1120px) {
+@media (min-width: 710px) and (max-width: 1120px) {
   .content {
     flex-direction: row;
     justify-content: space-around;

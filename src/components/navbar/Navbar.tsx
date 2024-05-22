@@ -11,7 +11,7 @@ const Navbar = async () => {
     // const session = await getServerSession(authOptions);
 
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <nav className={styles.nav}>
                 <Link href={"/"}>
                     <Image
@@ -29,7 +29,7 @@ const Navbar = async () => {
                     <LanguageSwitcher />
                 </div>
             </nav>
-        </div>
+        </section>
     )
 }
 

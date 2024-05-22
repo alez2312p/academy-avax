@@ -1,0 +1,70 @@
+{
+  "Avalanche-Fundamentals": [
+    {
+      "title": "Course Intro",
+      "path": "/module/Avalanche-Fundamentals/Course-Intro"
+    },
+    {
+      "title": "Primer on Avalanche Consensus",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus"
+    },
+    {
+      "title": "Subnet Architecture",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture"
+    },
+    {
+      "title": "Creating a Subnet",
+      "path": "/module/Avalanche-Fundamentals/Creating-Subnet"
+    },
+    {
+      "title": "Virtual Machines and Blockchains",
+      "path": "/module/Avalanche-Fundamentals/Virtual-Machines-Blockchains"
+    },
+    {
+      "title": "Virtual Machine Customization",
+      "path": "/module/Avalanche-Fundamentals/Virtual-Machine-Customization"
+    },
+    {
+      "title": "Certificate and Feedback",
+      "path": "/module/Avalanche-Fundamentals/Certificate-Feedback"
+    }
+  ],
+  "Subnet-Architecture": [
+    {
+      "title": "Introduction",
+      "path": "/module/Subnet-Architecture/Introduction"
+    },
+    {
+      "title": "What is a Subnet?",
+      "path": "/module/Subnet-Architecture/What-Subnet"
+    },
+    {
+      "title": "Avalanche Starter Kit",
+      "path": "/module/Subnet-Architecture/Avalanche-Starter-Kit"
+    },
+    {
+      "title": "Benefits of Subnets",
+      "path": "/module/Subnet-Architecture/Benefits-Subnets"
+    },
+    {
+      "title": "Benefits: Independent Tokenomics",
+      "path": "/module/Subnet-Architecture/Benefits-Independent-Tokenomics"
+    },
+    {
+      "title": "Benefits: Permissioning",
+      "path": "/module/Subnet-Architecture/Benefits-Permissioning"
+    },
+    {
+      "title": "Benefits: Private Blockchains",
+      "path": "/module/Subnet-Architecture/Benefits-Private-Blockchains"
+    },
+    {
+      "title": "Benefits: Control over Validator Set",
+      "path": "/module/Subnet-Architecture/Benefits-Control-Validator-Set"
+    },
+    {
+      "title": "Certificate and Feedback",
+      "path": "/module/Subnet-Architecture/Certificate-Feedback"
+    }
+  ]
+}

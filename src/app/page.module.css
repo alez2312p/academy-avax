@@ -1,6 +1,5 @@
 .main {
   height: 100%;
-  display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-between;
@@ -120,7 +119,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 700px) and (max-width: 1120px) {
+@media (min-width: 710px) and (max-width: 1120px) {
   .section1,
   .section3,
   .section4,

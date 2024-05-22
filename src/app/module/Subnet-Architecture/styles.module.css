@@ -1,0 +1,9 @@
+.main {
+  position: absolute;
+  top: 10%;
+  bottom: 23%;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  color: white;
+}

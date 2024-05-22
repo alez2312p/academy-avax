@@ -6,6 +6,7 @@ import { ThemeContextProvider } from "@/contexts/ThemeContext";
 import ThemeProvider from "@/providers/ThemeProvider";
 import Footer from "@/components/footer/Footer";
 import ThemeSwitcher from "@/components/themeSwitcher/ThemeSwitcher";
+import { PathProvider } from "@/contexts/pathContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,10 +25,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeContextProvider>
           <ThemeProvider>
-            <Navbar />
-            {children}
-            <ThemeSwitcher />
-            <Footer />
+            <PathProvider>
+              <Navbar />
+              {children}
+              <ThemeSwitcher />
+              <Footer />
+            </PathProvider>
           </ThemeProvider>
         </ThemeContextProvider>
       </body>

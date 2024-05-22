@@ -1,0 +1,88 @@
+{
+  "Course-Intro": [
+    {
+      "title": "👋 Welcome",
+      "path": "/module/Avalanche-Fundamentals/Course-Intro/Welcome"
+    },
+    {
+      "title": "👨‍🏫 Meet your Instructors",
+      "path": "/module/Avalanche-Fundamentals/Course-Intro/Meet-Instructors"
+    },
+    {
+      "title": "📚 Prerequisites",
+      "path": "/module/Avalanche-Fundamentals/Course-Intro/Prerequisites"
+    },
+    {
+      "title": "🎯 Learning Outcomes",
+      "path": "/module/Avalanche-Fundamentals/Course-Intro/Learning-Outcomes"
+    },
+    {
+      "title": "🤝 Join Course Group Chat",
+      "path": "/module/Avalanche-Fundamentals/Course-Intro/Join-Course-Group-Chat"
+    }
+  ],
+  "Primer-Avalanche-Consensus": [
+    {
+      "title": "📺 Primer on Avalanche Consensus",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Primer-Avalanche-Consensus"
+    },
+    {
+      "title": "📕 Recap: Consensus",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Recap-Consensus"
+    },
+    {
+      "title": "📕 Avalanche Consensus",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Avalanche-Consensus"
+    },
+    {
+      "title": "👩‍💻 Consensus Demo",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Consensus-Demo"
+    },
+    {
+      "title": "📕 Avalanche Consensus Whitepaper",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Avalanche-Consensus-Whitepaper"
+    },
+    {
+      "title": "📕 Throughput vs. Time to Finality",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Throughput-vs-Time-Finality"
+    },
+    {
+      "title": "✅ Learning Checklist: Avalanche Consensus",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Learning-Checklist-Avalanche-Consensus"
+    },
+    {
+      "title": "📝 Quiz: Avalanche Consensus",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Quiz-Avalanche-Consensus"
+    },
+    {
+      "title": "💬 Section Feedback: Avalanche Consensus",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus/Section-Feedback-Avalanche-Consensus"
+    }
+  ],
+  "Subnet-Architecture": [
+    {
+      "title": "📺 Subnet Architecture",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture/Subnet-Architecture"
+    },
+    {
+      "title": "📕 Features and Benefits of Subnets",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture/Features-Benefits-Subnets"
+    },
+    {
+      "title": "👩‍💻 Task: Setup Core Wallet",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture/Task-Setup-Core-Wallet"
+    },
+    {
+      "title": "👩‍💻 Task: Use Dexalot Subnet",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture/Task-Use-Dexalot-Subnet"
+    },
+    {
+      "title": "📝 Quiz: Subnet Architecture",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture/Quiz-Subnet-Architecture"
+    },
+    {
+      "title": "💬 Section Feedback: Subnet Architecture",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture/Section-Feedback-Subnet-Architecture"
+    }
+  ]
+}

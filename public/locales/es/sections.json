@@ -1,0 +1,70 @@
+{
+  "Avalanche-Fundamentals": [
+    {
+      "title": "Introducción al Curso",
+      "path": "/module/Avalanche-Fundamentals/Course-Intro"
+    },
+    {
+      "title": "Introducción al Consenso de Avalanche",
+      "path": "/module/Avalanche-Fundamentals/Primer-Avalanche-Consensus"
+    },
+    {
+      "title": "Arquitectura de Subredes",
+      "path": "/module/Avalanche-Fundamentals/Subnet-Architecture"
+    },
+    {
+      "title": "Creación de una Subred",
+      "path": "/module/Avalanche-Fundamentals/Creating-Subnet"
+    },
+    {
+      "title": "Máquinas Virtuales y Blockchains",
+      "path": "/module/Avalanche-Fundamentals/Virtual-Machines-Blockchains"
+    },
+    {
+      "title": "Personalización de Máquinas Virtuales",
+      "path": "/module/Avalanche-Fundamentals/Personalizacion-Maquinas-Virtuales"
+    },
+    {
+      "title": "Certificado y Retroalimentación",
+      "path": "/module/Avalanche-Fundamentals/Certificate-Feedback"
+    }
+  ],
+  "Subnet-Architecture": [
+    {
+      "title": "Introducción",
+      "path": "/module/Subnet-Architecture/Introduccion"
+    },
+    {
+      "title": "¿Qué es una Subred?",
+      "path": "/module/Subnet-Architecture/What-Subnet"
+    },
+    {
+      "title": "Kit de Inicio de Avalanche",
+      "path": "/module/Subnet-Architecture/Avalanche-Starter-Kit"
+    },
+    {
+      "title": "Beneficios de las Subredes",
+      "path": "/module/Subnet-Architecture/Benefits-Subnets"
+    },
+    {
+      "title": "Beneficios: Tokenomics Independientes",
+      "path": "/module/Subnet-Architecture/Benefits-Independent-Tokenomics"
+    },
+    {
+      "title": "Beneficios: Permisiones",
+      "path": "/module/Subnet-Architecture/Benefits-Permissioning"
+    },
+    {
+      "title": "Beneficios: Blockchains Privadas",
+      "path": "/module/Subnet-Architecture/Benefits-Private-Blockchains"
+    },
+    {
+      "title": "Beneficios: Control sobre el Conjunto de Validadores",
+      "path": "/module/Subnet-Architecture/Benefits-Control-Validator-Set"
+    },
+    {
+      "title": "Certificado y Retroalimentación",
+      "path": "/module/Subnet-Architecture/Certificate-Feedback"
+    }
+  ]
+}
